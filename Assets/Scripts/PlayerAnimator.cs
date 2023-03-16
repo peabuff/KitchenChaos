@@ -10,8 +10,7 @@ public class PlayerAnimator : MonoBehaviour
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
-        
+        animator = GetComponent<Animator>(); 
     }
 
     private void Update()
